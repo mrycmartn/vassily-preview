@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//KO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-05-23-08@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260524
+SUMMARY:Vassily Chmykov — 카푸쇼스 음악 페스티벌
+DESCRIPTION:콘수엘로 오케스트라 — Concertmaster
+LOCATION:Almada\, Portugal
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

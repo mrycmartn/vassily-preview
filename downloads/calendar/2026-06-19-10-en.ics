@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-06-19-10@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+SUMMARY:Vassily Chmykov — Orchestre Consuelo
+DESCRIPTION:Brahms\, Grieg\, Mozart — Concertmaster
+LOCATION:Cour du Palais synodal\, Sens
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

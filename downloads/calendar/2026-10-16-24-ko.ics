@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//KO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-10-16-24@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Vassily Chmykov — 바이올린 & 피아노 리사이틀 — 빌
+ 라 메디치
+DESCRIPTION:드뷔시\, G. 로루소 — 샤를 에세르와 함께
+LOCATION:Villa Médicis\, Rome
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

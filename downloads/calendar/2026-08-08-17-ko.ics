@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//KO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-08-08-17@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
+SUMMARY:Vassily Chmykov — 바이올린 & 피아노 리사이틀
+DESCRIPTION:슈만\, 드뷔시\, 브람스\, 베토벤 — 아르튀르 이
+ 네빈켈과 함께
+LOCATION:Festival du Comminges
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

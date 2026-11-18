@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//KO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-07-23-12@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260726
+SUMMARY:Vassily Chmykov — 라 로크 당테롱 국제 피아노 페스티
+ 벌
+DESCRIPTION:그리그\, 브람스 — 콘수엘로 오케스트라 — Conc
+ ertmaster
+LOCATION:La Roque d'Anthéron
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

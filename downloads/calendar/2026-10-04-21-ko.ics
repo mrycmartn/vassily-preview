@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//KO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-10-04-21@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;TZID=Europe/Zurich:20261004T170000
+DTEND;TZID=Europe/Zurich:20261004T181500
+SUMMARY:Vassily Chmykov — 클래시코시 페스티벌 — 트리오 메
+ 시앙
+DESCRIPTION:에스카이슈\, 라벨\, 거슈윈 — 실내악
+LOCATION:Théâtre Les Salons\, Genève
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

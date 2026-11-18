@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-10-16-24@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Vassily Chmykov — Récital violon et piano — Villa Médicis
+DESCRIPTION:Debussy\, G. Lorusso — avec Charles Heisser
+LOCATION:Villa Médicis\, Rome
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

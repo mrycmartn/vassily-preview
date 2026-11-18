@@ -1,0 +1,29 @@
+/* Scoped to concert tiles; resting layout is the original Claude layout. */
+#agenda .agenda-item.venue-expandable {
+  min-height: var(--venue-rest, 0px);
+  transition: min-height 420ms var(--ease-soft), opacity .9s var(--ease-soft), transform 1s var(--ease-out), background .3s;
+}
+#agenda .agenda-item.venue-open {
+  min-height: var(--venue-expanded);
+  align-content: start;
+  transition-delay: 0s;
+  opacity: 1;
+  background: #101011;
+}
+#agenda .agenda-item.venue-open .agenda-bg {
+  inset: var(--venue-image-top) 0 0;
+  opacity: 1;
+  z-index: 0;
+}
+#agenda .agenda-item.venue-open .agenda-bg img {
+  object-fit: cover;
+  object-position: center;
+}
+#agenda .agenda-item.venue-open > :not(.agenda-bg) { position: relative; z-index: 1; }
+#agenda .agenda-when > [role="button"] { cursor: pointer; }
+#agenda .agenda-when > [role="button"]:focus-visible { outline: 1px solid var(--accent); outline-offset: 6px; }
+@media print {
+  #agenda .agenda-item.venue-expandable { min-height: 0; }
+  #agenda .agenda-item.venue-open .agenda-bg { inset: 0; opacity: .15; }
+}
+#agenda .agenda-item.venue-expandable.in { transition-delay: 0s; }

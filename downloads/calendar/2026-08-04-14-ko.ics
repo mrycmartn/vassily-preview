@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//KO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-08-04-14@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+SUMMARY:Vassily Chmykov — 실내악
+DESCRIPTION:멘델스존\, 8중주 — 쇼스타코비치\, 5개의 소품
+LOCATION:Festival Salon\, Provence
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

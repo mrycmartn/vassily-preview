@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//KO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-10-25-27@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;TZID=Europe/Paris:20261025T200000
+DTEND;TZID=Europe/Paris:20261025T220000
+SUMMARY:Vassily Chmykov — 실내악 — 피아노 트리오
+DESCRIPTION:포레\, 슈만 — Hortense Cartier-Bresson\, François Salque
+ s와 함께
+LOCATION:Abbaye de Fontmorigny
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

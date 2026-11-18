@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-09-17-20@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260921
+SUMMARY:Vassily Chmykov — Orchestre National des Pays de la Loire
+DESCRIPTION:Concertmaster
+LOCATION:Nantes\, Angers
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

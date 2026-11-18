@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-08-08-17@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
+SUMMARY:Vassily Chmykov — Récital violon et piano
+DESCRIPTION:Schumann\, Debussy\, Brahms\, Beethoven — avec Arthur Hinnewi
+ nkel
+LOCATION:Festival du Comminges
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

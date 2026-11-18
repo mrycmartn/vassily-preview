@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-08-03-13@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+SUMMARY:Vassily Chmykov — Récital violon et piano
+DESCRIPTION:Beethoven — avec Jae-Yeon Won
+LOCATION:Festival Salon\, Provence
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-04-19-03@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:Vassily Chmykov — Festival de Pâques de Deauville
+DESCRIPTION:Tchaïkovski\, Souvenir de Florence — Schnittke\, Quintette a
+ vec piano
+LOCATION:Deauville
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

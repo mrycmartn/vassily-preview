@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//KO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-08-04-15@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+SUMMARY:Vassily Chmykov — 바이올린 & 비올라 콘서트
+DESCRIPTION:헨델-할보르센 — 폴 지엔타라와 함께
+LOCATION:Festival Salon\, Provence
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

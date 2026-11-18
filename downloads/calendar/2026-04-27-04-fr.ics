@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-04-27-04@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260504
+SUMMARY:Vassily Chmykov — Going Home Orchestra — Séoul
+DESCRIPTION:Mozart — Seoul Art Center
+LOCATION:Seoul Arts Center\, Seoul
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

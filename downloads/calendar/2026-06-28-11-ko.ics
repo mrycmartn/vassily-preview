@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//KO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-06-28-11@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260719
+SUMMARY:Vassily Chmykov — 일본 투어 — 일드프랑스 국립 오케
+ 스트라
+DESCRIPTION:브람스\, 베토벤 — Concertmaster
+LOCATION:Osaka\, Okayama\, Fukuoka\, Tokyo\, Nagoya\, Aichi\, Hamamatsu
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

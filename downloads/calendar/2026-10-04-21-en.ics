@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-10-04-21@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;TZID=Europe/Zurich:20261004T170000
+DTEND;TZID=Europe/Zurich:20261004T181500
+SUMMARY:Vassily Chmykov — Festival Classicosy — Trio Messiaen
+DESCRIPTION:Escaich\, Ravel\, Gershwin — Chamber music
+LOCATION:Théâtre Les Salons\, Genève
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//KO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2027-04-02-31@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;TZID=Europe/Paris:20270402T203000
+DTEND;TZID=Europe/Paris:20270402T220000
+SUMMARY:Vassily Chmykov — Les Concerts des Etoiles du Classique
+DESCRIPTION:모차르트\, 베토벤\, 드보르자크 — 실내악 — F
+ élicité Laîné\, Iris Scialom\, Héloïse Houzé\, Jérémy Garbarg와 
+ 함께
+LOCATION:Théâtre Alexandre-Dumas\, Saint-Germain-en-Laye
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

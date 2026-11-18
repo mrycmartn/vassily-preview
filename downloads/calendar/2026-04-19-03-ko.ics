@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//KO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-04-19-03@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:Vassily Chmykov — 도빌 부활절 페스티벌
+DESCRIPTION:차이코프스키\, 피렌체의 추억 — 슈니트케\, 피
+ 아노 5중주
+LOCATION:Deauville
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

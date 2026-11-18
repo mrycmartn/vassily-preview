@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-10-25-27@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;TZID=Europe/Paris:20261025T200000
+DTEND;TZID=Europe/Paris:20261025T220000
+SUMMARY:Vassily Chmykov — Musique de chambre — Trio avec piano
+DESCRIPTION:Fauré\, Schumann — avec Hortense Cartier-Bresson\, François
+  Salques
+LOCATION:Abbaye de Fontmorigny
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

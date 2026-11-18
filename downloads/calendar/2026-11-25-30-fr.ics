@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-11-25-30@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261206
+SUMMARY:Vassily Chmykov — Orchestre National d'Île-de-France
+DESCRIPTION:Concertmaster
+LOCATION:Philharmonie de Paris
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

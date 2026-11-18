@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://www.vassilychmykov.com/</loc>
+        <lastmod>2026-09-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.vassilychmykov.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.vassilychmykov.com/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://www.vassilychmykov.com/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vassilychmykov.com/"/>
+        <image:image><image:loc>https://www.vassilychmykov.com/img/hero-1920.jpg</image:loc><image:title>Vassily Chmykov — Violoniste</image:title><image:caption>Vassily Chmykov, violoniste, portrait avec violon</image:caption></image:image>
+        <image:image><image:loc>https://www.vassilychmykov.com/img/portrait-1920.jpg</image:loc><image:title>Vassily Chmykov — Portrait</image:title></image:image>
+        <image:image><image:loc>https://www.vassilychmykov.com/img/smile-1920.jpg</image:loc><image:title>Vassily Chmykov — Portrait avec violon</image:title></image:image>
+        <image:image><image:loc>https://www.vassilychmykov.com/img/concert-1920.jpg</image:loc><image:title>Vassily Chmykov — Portrait de profil</image:title></image:image>
+        <image:image><image:loc>https://www.vassilychmykov.com/img/tuning-1920.jpg</image:loc><image:title>Vassily Chmykov accorde son violon</image:title></image:image>
+        <image:image><image:loc>https://www.vassilychmykov.com/img/case-1920.jpg</image:loc><image:title>Vassily Chmykov — Départ</image:title></image:image>
+        <image:image><image:loc>https://www.vassilychmykov.com/img/stage-1920.jpg</image:loc><image:title>Vassily Chmykov sur scène avec orchestre</image:title></image:image>
+        <image:image><image:loc>https://www.vassilychmykov.com/img/scroll-1920.jpg</image:loc><image:title>Vassily Chmykov — Volute du violon</image:title></image:image>
+        <image:image><image:loc>https://www.vassilychmykov.com/img/open-1920.jpg</image:loc><image:title>Vassily Chmykov en loge</image:title></image:image>
+        <image:image><image:loc>https://www.vassilychmykov.com/img/chandelier-1920.jpg</image:loc><image:title>Vassily Chmykov — Salon</image:title></image:image>
+        <image:image><image:loc>https://www.vassilychmykov.com/img/hall-1920.jpg</image:loc><image:title>Vassily Chmykov avant le concert</image:title></image:image>
+        <image:image><image:loc>https://www.vassilychmykov.com/img/backstage-1291.jpg</image:loc><image:title>Vassily Chmykov en coulisses</image:title></image:image>
+        <image:image><image:loc>https://www.vassilychmykov.com/img/silhouette-1333.jpg</image:loc><image:title>Vassily Chmykov — Silhouette au violon</image:title></image:image>
+    </url>
+</urlset>

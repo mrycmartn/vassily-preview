@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-07-23-12@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260726
+SUMMARY:Vassily Chmykov — Festival International de Piano de La Roque d'A
+ nthéron
+DESCRIPTION:Grieg\, Brahms — Orchestre Consuelo — Concertmaster
+LOCATION:La Roque d'Anthéron
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

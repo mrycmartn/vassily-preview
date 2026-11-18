@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-05-12-06@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260513
+SUMMARY:Vassily Chmykov — Soloist — Spohr Concerto for String Quartet &
+  Orchestra
+DESCRIPTION:— with Stéphanie Huang\, Emmanuel Coppey\, Paul Zientara
+LOCATION:Amphithéâtre de la Sorbonne\, Paris
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

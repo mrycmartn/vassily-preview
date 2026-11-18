@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-05-17-07@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260520
+SUMMARY:Vassily Chmykov — Orchestre National des Pays de la Loire
+DESCRIPTION:Festival de l'Epau — Mozart\, Schumann\, Éric Tanguy — Con
+ certmaster
+LOCATION:Abbaye de l'Epau
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

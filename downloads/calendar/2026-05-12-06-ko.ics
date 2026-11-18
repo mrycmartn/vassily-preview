@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//KO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-05-12-06@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260513
+SUMMARY:Vassily Chmykov — 솔리스트 — 슈포어 현악 사중주와 
+ 오케스트라를 위한 협주곡
+DESCRIPTION:— 스테파니 황\, 에마뉘엘 코페\, 폴 지엔타라
+LOCATION:Amphithéâtre de la Sorbonne\, Paris
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//KO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-05-17-07@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260520
+SUMMARY:Vassily Chmykov — 페이 드 라 루아르 국립 오케스트라
+DESCRIPTION:에포 페스티벌 — 모차르트\, 슈만\, 에릭 탕기 
+ — Concertmaster
+LOCATION:Abbaye de l'Epau
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

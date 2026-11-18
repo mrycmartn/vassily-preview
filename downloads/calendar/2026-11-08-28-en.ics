@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-11-08-28@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;TZID=Europe/Paris:20261108T160000
+DTEND;TZID=Europe/Paris:20261108T180000
+SUMMARY:Vassily Chmykov — Orchestre Consuelo
+DESCRIPTION:Concertmaster
+LOCATION:Cité de la Musique\, Paris
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR

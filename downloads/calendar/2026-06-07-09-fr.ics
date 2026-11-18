@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vassily Chmykov//Concerts//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vc-2026-06-07-09@vassilychmykov.com
+DTSTAMP:20260926T120000Z
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
+SUMMARY:Vassily Chmykov — Opéra National de Bordeaux
+DESCRIPTION:N. Campogrande\, Concerto pour public et orchestre — Concertm
+ aster
+LOCATION:Salle Dutilleux\, Bordeaux
+URL:https://www.vassilychmykov.com/#agenda
+END:VEVENT
+END:VCALENDAR
