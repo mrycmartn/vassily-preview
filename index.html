@@ -77,6 +77,7 @@
     <!-- ================================================== -->
     <meta name="apple-mobile-web-app-title" content="V. Chmykov">
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="format-detection" content="telephone=no">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -449,7 +450,7 @@
         .nav-socials { gap: 14px; }
         .nav-socials a { display: grid; place-items: center; width: 30px; height: 30px; color: var(--muted); transition: color 0.3s, transform 0.6s var(--ease-out); }
         .nav-lang { gap: 2px; }
-        .nav-lang button { padding: 6px 7px; font-size: 0.68rem; font-weight: 500; letter-spacing: 0.16em; color: var(--muted); transition: color 0.3s; }
+        .nav-lang button { padding: 6px 7px; font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.16em; color: var(--muted); transition: color 0.3s; }
         .nav-lang button.active { color: var(--text); }
         .nav-toggle { display: none; position: relative; z-index: 2; width: 44px; height: 44px; margin-right: -10px; }
         .nav-toggle span { position: absolute; left: 11px; right: 11px; height: 1px; background: var(--text); transition: transform 0.7s var(--ease-out), opacity 0.3s; }
@@ -551,7 +552,7 @@
 
         .bio-download { margin-top: 44px; }
         .bio-text .bio-download-label { max-width: none; line-height: 1.5; font-size: var(--fs-label); font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); }
-        .bio-download-list small { margin-left: 6px; font-family: var(--sans); font-size: 0.58rem; font-weight: 500; letter-spacing: 0.18em; color: var(--muted); vertical-align: 0.2em; }
+        .bio-download-list small { margin-left: 6px; font-family: var(--sans); font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.18em; color: var(--muted); vertical-align: 0.2em; }
         .disclose { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.5s var(--ease-out); }
         .disclose > div { min-height: 0; overflow: hidden; }
         .disclose.open { grid-template-rows: 1fr; }
@@ -611,7 +612,7 @@
         .lightbox-prev { left: var(--gutter); }
         .lightbox-next { right: var(--gutter); }
         .lightbox-credit { position: absolute; left: var(--gutter); bottom: 22px; font-size: 0.72rem; letter-spacing: 0.08em; color: var(--muted); }
-        .lightbox-hint { position: absolute; left: 50%; bottom: 22px; display: flex; align-items: center; gap: 10px; font-size: 0.66rem; letter-spacing: 0.24em; text-transform: uppercase; color: var(--text-2); opacity: 0; transform: translate3d(-50%, 8px, 0); transition: opacity 0.5s, transform 0.6s var(--ease-out); pointer-events: none; }
+        .lightbox-hint { position: absolute; left: 50%; bottom: 22px; display: flex; align-items: center; gap: 10px; font-size: 0.6875rem; letter-spacing: 0.24em; text-transform: uppercase; color: var(--text-2); opacity: 0; transform: translate3d(-50%, 8px, 0); transition: opacity 0.5s, transform 0.6s var(--ease-out); pointer-events: none; }
         .lightbox-hint.is-shown { opacity: 1; transform: translate3d(-50%, 0, 0); }
 
         /* =========================================================
@@ -633,7 +634,7 @@
         .agenda-date-sub { font-family: var(--sans); font-size: 0.72rem; color: var(--muted); letter-spacing: 0.05em; margin-top: 0.3rem; }
         .agenda-info h3 { font-family: var(--serif); font-size: 1.15rem; font-weight: 400; margin-bottom: 0.4rem; color: var(--text); }
         .agenda-info p { font-size: 0.85rem; color: var(--text-2); line-height: 1.6; }
-        .agenda-info .with { font-size: 0.8em; color: var(--muted); }
+        .agenda-info .with { font-size: max(0.8em, 0.75rem); color: var(--muted); }
         .agenda-item { grid-template-columns: 200px 1fr auto; }
         .agenda-when { display: flex; align-items: flex-start; gap: 14px; }
         .agenda-when > div { width: 148px; flex: none; }
@@ -641,7 +642,7 @@
         .cal { position: relative; flex: none; display: grid; place-items: center; width: 38px; height: 38px; margin-top: 2px; border: 1px solid var(--line-2); color: var(--text-2); transition: background-color 0.4s, color 0.4s, border-color 0.4s, scale 140ms var(--ease-out); }
         .cal svg { transition: transform 0.6s var(--ease-out); }
         .cal:focus-visible { background: var(--text); border-color: var(--text); color: var(--bg); }
-        .cal-label { position: absolute; left: 0; top: calc(100% + 8px); font-size: 0.62rem; letter-spacing: 0.08em; white-space: nowrap; color: var(--text-2); opacity: 0; pointer-events: none; transition: opacity 0.3s; }
+        .cal-label { position: absolute; left: 0; top: calc(100% + 8px); font-size: 0.6875rem; letter-spacing: 0.08em; white-space: nowrap; color: var(--text-2); opacity: 0; pointer-events: none; transition: opacity 0.3s; }
         .cal:focus-visible .cal-label { opacity: 1; }
         .agenda-past .cal { display: none; }
         @media (hover: none) { .cal-label { display: none; } .cal::after { content: ''; position: absolute; inset: -4px; } }
@@ -680,6 +681,7 @@
         .form-group label { position: absolute; left: 0; top: 34px; font-size: 0.95rem; color: var(--muted); pointer-events: none; transform-origin: left top; transition: transform 0.6s var(--ease-out), color 0.4s; }
         .form-group input:focus + label, .form-group input:not(:placeholder-shown) + label,
         .form-group textarea:focus + label, .form-group textarea:not(:placeholder-shown) + label { transform: translate3d(0, -26px, 0) scale(0.78); color: var(--accent); }
+        .form-group input, .form-group textarea { caret-color: var(--accent); }
         .form-group input:-webkit-autofill { -webkit-text-fill-color: var(--text); transition: background-color 9999s; }
         .form-submit { position: relative; isolation: isolate; overflow: hidden; display: inline-flex; align-items: center; gap: 18px; margin-top: 26px; padding: 19px 30px; border: 1px solid var(--line-2); font-size: 0.7rem; font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; color: var(--text); transition: color 0.55s var(--ease-out), border-color 0.5s, transform 0.6s var(--ease-out), scale 140ms var(--ease-out); }
         .form-submit::before { content: ''; position: absolute; inset: 0; z-index: -1; background: var(--text); transform: translate3d(0, 101%, 0); transition: transform 0.65s var(--ease-out); }
@@ -693,8 +695,8 @@
         .footer { padding: 32px 0 30px; border-top: 1px solid var(--line); }
         .footer-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 18px 32px; }
         .footer-left { font-size: 0.75rem; letter-spacing: 0.04em; color: var(--muted); }
-        .footer-right { display: flex; align-items: center; gap: 32px; font-size: 0.66rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; }
-        .footer-right a { display: inline-flex; align-items: center; gap: 10px; color: var(--muted); transition: color 0.3s; }
+        .footer-right { display: flex; align-items: center; gap: 32px; font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; }
+        .footer-right a { display: inline-flex; align-items: center; gap: 10px; padding-block: 7px; margin-block: -7px; color: var(--muted); transition: color 0.3s; }
         .footer-right svg { transition: transform 0.6s var(--ease-out); }
 
         /* =========================================================
@@ -979,7 +981,7 @@
                     <figcaption class="bio-image-caption">&copy; Clément Pimenta</figcaption>
                 </figure>
                 <div class="bio-text">
-                    <p class="section-label">
+                    <p class="section-label" role="heading" aria-level="2">
                         <span data-lang="en">Biography</span>
                         <span data-lang="fr">Biographie</span>
                         <span data-lang="ko">바이오그래피</span>
@@ -1072,7 +1074,7 @@
                 <span data-lang="fr">Photographies</span>
                 <span data-lang="ko">Photographies</span>
             </p>
-            <h2 class="section-title gallery-head split">
+            <h2 class="section-title gallery-head split" id="galleryTitle">
                 <span data-lang="en">Gallery</span>
                 <span data-lang="fr">Galerie</span>
                 <span data-lang="ko">갤러리</span>
@@ -2075,7 +2077,7 @@
     </footer>
 
     <!-- ===== LIGHTBOX ===== -->
-    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="galleryTitle">
         <div class="lb-backdrop"></div>
         <div class="lb-frame" id="lbFrame"><img id="lightbox-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt=""></div>
         <div class="lb-ui">
