@@ -8,7 +8,7 @@
   align-content: start;
   transition-delay: 0s;
   opacity: 1;
-  background: #101011;
+  background: var(--bg-2);
 }
 #agenda .agenda-item.venue-open .agenda-bg {
   inset: var(--venue-image-top) 0 0;

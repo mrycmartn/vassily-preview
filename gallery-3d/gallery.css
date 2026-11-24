@@ -1,10 +1,10 @@
 /* All overrides are confined to the existing gallery section. */
 #gallery #gallery-travel { position: relative; height: 0; }
-#gallery .gallery-exhibition { position: absolute; top: 0; width: 100%; height: min(800px, calc(100svh - 100px)); min-height: 420px; visibility: hidden; overflow: hidden; background: #000; }
+#gallery .gallery-exhibition { position: absolute; top: 0; width: 100%; height: min(800px, calc(100svh - 100px)); min-height: 420px; visibility: hidden; overflow: hidden; background: var(--stage); }
 #gallery.gallery-3d-ready #gallery-travel { height: max(420px, min(800px, 100svh - 100px)); }
 #gallery.gallery-3d-ready .gallery-exhibition { position: relative; top: 0; visibility: visible; }
 #gallery.gallery-3d-ready .gallery-shell { display: none; }
-#gallery #scene-stage { position: absolute; inset: 0; background: #000; overflow: hidden; touch-action: pan-y; }
+#gallery #scene-stage { position: absolute; inset: 0; background: var(--stage); overflow: hidden; touch-action: pan-y; }
 #gallery #scene-stage canvas { display: block; width: 100%; height: 100%; cursor: grab; }
 #gallery #scene-stage canvas:active { cursor: grabbing; }
 #gallery #scene-stage:focus-visible { outline: 1px solid var(--accent); outline-offset: -2px; }
@@ -19,7 +19,7 @@
 #gallery .gallery-scene-controls svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1; }
 #gallery #scene-motion[aria-pressed=false] svg { opacity: .35; }
 #gallery #scene-counter { min-width: 50px; text-align: center; font-size: 10px; font-variant-numeric: tabular-nums; color: var(--muted); }
-#gallery #scene-help { grid-column: 1 / -1; font-size: 10px; letter-spacing: .06em; color: var(--muted); }
+#gallery #scene-help { grid-column: 1 / -1; font-size: 11px; letter-spacing: .04em; color: var(--muted); }
 @media (max-width: 760px), (hover: none) and (max-width: 1024px) {
   #gallery #gallery-travel { display: none; }
   #gallery.gallery-3d-ready .gallery-shell { display: block; }
