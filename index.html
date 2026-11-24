@@ -365,7 +365,7 @@
         .section-label.in::before { transform: none; }
 
         /* Image frame: curtain wipe + inner zoom, parallax on the picture */
-        .frame { position: relative; overflow: hidden; }
+        .frame { position: relative; overflow: hidden; overflow: clip; }
         .frame-clip { position: absolute; inset: 0; overflow: hidden; background: var(--bg-3); }
         .frame picture { position: absolute; inset: -6% 0; }
         .frame img { width: 100%; height: 100%; object-fit: cover; object-position: var(--pos, 50% 50%); }
@@ -599,7 +599,7 @@
             gap: var(--g);
         }
         @supports (width: 1cqw) { @media (min-width: 761px) { .gallery-grid { grid-auto-rows: calc((100cqw - var(--g) * 2) / 3 * 4 / 3); } } }
-        .gallery-item { position: relative; overflow: hidden; }
+        .gallery-item { position: relative; overflow: hidden; overflow: clip; }
         .gallery-item.wide { grid-column: span 2; }
         .gallery-item.is-open .frame-clip { visibility: hidden; }
         .gallery-item:focus-visible { outline-offset: 6px; }
@@ -835,6 +835,19 @@
         }
         @media (hover: hover) and (pointer: fine) and (max-width: 1100px) {
             .nav-link:hover .roll > span { transform: translate3d(0, -1.18em, 0); }
+        }
+        /* Scroll-linked parallax runs on the compositor where the browser supports it,
+           so the photos move in the same frame as the scroll (no lag on iOS).
+           Same curves as the JS fallback: hero photo 0.26 x scroll, hero text -0.06 x scroll
+           over the first 130% of the screen; gallery photos +/-4% while crossing the screen. */
+        @supports (animation-timeline: scroll()) {
+            .js .hero-pic { animation: hero-drift linear both; animation-timeline: scroll(root block); animation-range: 0 130lvh; }
+            .js .hero-content { animation: hero-lift linear both; animation-timeline: scroll(root block); animation-range: 0 130lvh; }
+            @keyframes hero-drift { from { transform: translate3d(0, 0, 0); } to { transform: translate3d(0, 33.8lvh, 0); } }
+            @keyframes hero-lift { from { transform: translate3d(0, 0, 0); } to { transform: translate3d(0, -7.8lvh, 0); } }
+            .js .frame-clip:has(> picture[data-parallax]) { view-timeline: --frame block; }
+            .js .frame-clip > picture[data-parallax] { animation: frame-drift linear both; animation-timeline: --frame; animation-range: cover 0% cover 100%; }
+            @keyframes frame-drift { from { transform: translate3d(0, -4%, 0); } to { transform: translate3d(0, 4%, 0); } }
         }
     </style>
 </head>
@@ -2604,6 +2617,8 @@
         /* ---------- Frame loop: progress, nav, parallax, marquee, cursor ---------- */
         var progress = $('#scrollProgress i');
         var heroPic = $('.hero-pic'), heroContent = $('.hero-content');
+        // When CSS scroll timelines drive the parallax, the script leaves those transforms alone.
+        var cssParallax = !!(window.CSS && CSS.supports && CSS.supports('animation-timeline: scroll()'));
         var parallaxEls = $$('[data-parallax]');
         var lastY = -1, navAnchorY = 0, vel = 0, vh = window.innerHeight;
         /* The loop runs only while something moves (scroll, cursor ring catching up), then sleeps. */
@@ -2625,11 +2640,11 @@
                     if (y > vh * 0.85 && y - navAnchorY > 10) { nav.classList.add('is-hidden'); navAnchorY = y; }
                     else if (navAnchorY - y > 10 || y < vh * 0.85) { nav.classList.remove('is-hidden'); navAnchorY = y; }
                 }
-                if (!reduceMotion && y < vh * 1.3) {
+                if (!reduceMotion && !cssParallax && y < vh * 1.3) {
                     if (heroPic) heroPic.style.transform = 'translate3d(0,' + (y * 0.26).toFixed(1) + 'px,0)';
                     if (heroContent) heroContent.style.transform = 'translate3d(0,' + (y * -0.06).toFixed(1) + 'px,0)';
                 }
-                if (!reduceMotion) {
+                if (!reduceMotion && !cssParallax) {
                     // Read every position first, then write, so the browser lays out once per frame.
                     var rects = parallaxEls.map(function (el) { return el.parentElement.getBoundingClientRect(); });
                     parallaxEls.forEach(function (el, k) {
